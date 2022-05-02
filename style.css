@@ -18,7 +18,7 @@ main {
 ul, li {
     display: grid;
     grid-auto-flow: column;
-    background-color: #764248;
+    background-color: transparent;
     margin: 8px;
     display:grid;
     gap:10px;
@@ -34,8 +34,8 @@ ul, li {
     text-align:left;
     margin: 20px;
     color: #DFE2CF;
-    font-size: x-large;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    font-family: "sacramento",cursive;
     background-color: #764248;
     box-shadow: none;
     font-weight: bolder;
@@ -46,7 +46,7 @@ li {
     background-color:#4E2C30 ;
     border-radius: 5px;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:"Cormaorant",serif;
     padding-top: 15px;
     text-shadow: 5px 5px 5px #271618;
     font-weight: bold;
@@ -67,18 +67,18 @@ p {
     width: 500px;
     margin-top: 10%;
     margin-left: 30%;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: "sacramento",cursive;
     color:#271618;
     text-shadow: 5px 5px 5px #d88c95;
 }
 
 .intro {
     display: grid;
-    margin-top: 15%;
+    margin-top: 20%;
     margin-left: 30%;
     font-size: 25px;
     width: 850px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:"Cormaorant",serif;
     color:#271618;
     font-weight: 200;
 
@@ -89,14 +89,15 @@ h1 {
     margin-top:10%;
     font-size: 50px;
     font-weight: 600;
-    
+    font-family: "sacramento",cursive;
     color:#271618;
+    text-shadow: 5px 5px 5px #d88c95;
     
     
 }
 .introaboutme {
    text-align: center;
-   margin:15%;
+   margin:5%;
    padding: 50px;
    background-color: #4E2C30;
    border-radius: 50px;
@@ -106,9 +107,9 @@ h1 {
 }
 
 h2 {
-font-size: 30px;
+font-size: 40px;
 font-weight: 700;
-font-family: Arial, Helvetica, sans-serif;
+font-family: "sacramento",cursive;
 color:#E3C5BB;
 background-color: transparent;
 margin: 50px;
@@ -119,8 +120,102 @@ margin: 50px;
     margin: 50px;
     font-size: 25px;
     text-align: justify;
-    font-weight: 700;
-    color:#DDA3B2;
+    font-weight: 300;
+    color:#DFE2CF;
     background-color: transparent;
 }
 
+.portfoliocards {
+    display:grid;
+    grid-template-columns: repeat(auto, 100px);
+    grid-auto-flow: column;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 50px;
+
+    margin-bottom:100px;
+    gap:10px;
+
+}
+
+ol li {
+    
+    text-align: center;
+    display: inline;
+    color:#DDA3B2;
+    margin: 7px;
+    background-color: #271618;
+    padding-bottom: 8px;
+    padding-right: 5px;
+    padding-left: 5px;
+
+}
+
+ol {
+    background-color: transparent;
+}
+
+
+.card {
+    background-color:#4E2C30;
+    text-align: center;
+    border-radius: 50px;
+   box-shadow:5px 5px 5px #271618;
+
+}
+
+.readmore {
+    display: block;
+   
+    background-color:#d88c95;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow:5px 5px 5px #271618;
+    margin-bottom: 20px;
+    font-family: "sacramento", cursive;
+    font-size: 30px;
+    font-weight: bold;
+    width: 150px;
+    margin-left: 130px;
+
+
+}
+
+.github {
+    background-color: transparent;
+    color:#d88c95;
+    margin-bottom: 50px;
+    font-family:"Cormaorant",serif;
+}
+
+.float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#764248;
+    color:#DFE2CF;
+    border-radius:50px;
+    text-align:center;
+    box-shadow: 2px 2px 3px #271618;
+    text-align: center;
+    padding: 5px;
+    font-family: "sacramento", cursive;
+    font-size: x-large;
+  }
+  
+
+  .joblist {
+      display: grid;
+      grid-template-rows: repeat(2,100px);
+      background-color: #4E2C30;
+      gap:100px;   
+      border-radius: 50px;
+      margin:150px;
+      text-align: center;
+
+  }
+
+  
+  
