@@ -1,0 +1,174 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: 'Exo 2', sans-serif;
+}
+
+
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 100px 100px 100px ;
+    height: 50px;
+    background-color: #3B322C;
+    padding:5px
+}
+
+.name {
+    margin-top: 15px;
+    margin-left: 15px;
+    color: #94E8B4;
+    font-family: 'Exo 2', sans-serif;
+    font-size: large;
+}
+
+button {
+    background-color: #94E8B4;
+    border: none;
+    margin: 5px;
+    border-radius: 15px;
+    font-family:  'Exo 2', sans-serif;
+    color: #3B322C;
+}
+
+section {
+    background-color: #4E6151;
+    height: 100vh;
+    border-bottom: solid 20px #3B322C;
+    
+}
+
+section h1 {
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 10%;
+    font-size: 100px;
+    
+    color: #94E8B4;
+}
+
+p {
+    font-size: 20px;
+    margin-left: 30%;
+    margin-right:28%;
+    margin-top: 80px;
+    color: #94E8B4;
+    
+    
+}
+
+
+.aboutme {
+    background-color: #94E8B4;
+    border-bottom: solid 20px #3B322C;
+
+}
+
+h2 {
+
+    font-size: 40px;
+    
+    color: #3B322C;
+    text-align: center;
+    padding-top: 100px;
+    
+
+}
+
+h3 {
+    font-size: 20px;
+    color: #4E6151;
+    
+
+}
+
+
+
+.aboutme h3 {
+    padding-left: 20%;
+    margin-top: 50px;
+}
+
+.aboutme p {
+    color: #3B322C;
+}
+
+ul {
+    text-align: center;
+    font-size: x-large;
+    color: #3B322C;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+
+
+.portfolio {
+    background-color: #72BDA2;
+    border-bottom: solid 20px #3B322C;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    padding: 10px;
+
+
+}
+
+.card {
+    background-color: #DDF8E8;
+    margin:50px;
+    margin-top: 10px;
+   
+    border-radius: 15px;
+    border: 5px solid #5E8C61;
+
+}
+
+.card p{
+    text-align: justify;
+    margin-top: 10px;
+    color: #3B322C;
+}
+
+.readmore {
+    background-color: chocolate;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 40%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.repo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.experience h3 {
+    margin-left: 20%;
+}
+
+.experience {
+    height: 800px;
+    border-bottom: solid 20px #3B322C;
+}
+
+header a {
+    background-color: #94E8B4;
+    border: none;
+    margin: 5px;
+    border-radius: 15px;
+    font-family:  'Exo 2', sans-serif;
+    color: #3B322C;
+    text-align: center;
+    padding-top: 5px;
+}
+
+
+header a:hover {
+    cursor: pointer;
+    border: #1e1c1a solid 3px;
+}
